@@ -1,0 +1,59 @@
+.Container{
+background-color:black;
+width: 600px;
+height: 1000px;
+margin: auto;
+padding:100px; /*Me separa los elementos del borde*/
+}
+
+.Post{
+background-color:white;
+width: 500px;
+height: 670px;
+margin:auto; /*margin:auto, centra los contenedores*/
+}
+
+.MainHeader{
+    background-color:white;
+    width: 500px;
+    height: 80px ;
+    margin: auto;  /*El margin auto me centra el contenido*/
+    
+}
+.header{
+ margin:50px;
+ padding:5px;
+
+}
+
+.Image img{ /*Es necesario indicar el img para saber que se le va a dar formato especificamente a la imagen*/
+    width: 500px;
+    height: 400px;
+}
+.Icons {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    overflow: hidden;
+    padding:10px;
+
+}
+.Likes{
+    background-color:white;
+    height: 20px;
+    width: 450px; 
+    overflow: hidden;
+    padding: 10px;
+}
+.Description{
+    background-color:white;
+    width: 450px;
+    height: 80px;
+    overflow:hidden;
+    padding:10px;
+}
+div.Footer {
+    width: 100px;
+    height: 10px;
+}
